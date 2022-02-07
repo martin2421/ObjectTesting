@@ -1,8 +1,8 @@
 package Y1W;
 
 /**
- * Parent Class. Contains abstract methods so other child classes can write their
- * own code. 
+ * Abstract parent Class. Contains abstract methods so other child classes can 
+ * write their own code.
  */
 public abstract class Plant {
 
@@ -42,6 +42,7 @@ public abstract class Plant {
      // equals() method
      @Override
      public boolean equals(Object obj) {
+          
           if (this == obj) // self check
                return true;
           if (obj == null) // null check
