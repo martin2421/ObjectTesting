@@ -5,9 +5,9 @@ package Y1W;
  * Student Number: T00684924
  * Assignment Number: 3
  * Due Date: February 7th, 2022
- * Program Description: Testing the use of equals() method through a parent and a
- * child class, as well as creating an abstract parent class alongside some 
- * abstract methods to be used and manipulated by the child classes. 
+ * Program Description: Testing the use of equals() method through a parent and
+ * a child class, as well as creating an abstract parent class alongside some
+ * abstract methods to be used and manipulated by the child classes.
  ****/
 
 public class PlantDriver {
@@ -47,11 +47,11 @@ public class PlantDriver {
 
           // Print Header
           System.out.println("\n**********************************************" +
-                    "*********************************************************");
+                    "*****************************************************");
           System.out.println("Testing creation of Spice objects, toString(), " +
                     "abstract and equals methods, accessors and mutators:");
-          System.out.println("**************************************************" +
-                    "*****************************************************");
+          System.out.println("***********************************************" +
+                    "****************************************************");
 
           /**
            * Testing toString() method
@@ -111,19 +111,19 @@ public class PlantDriver {
            * Testing abstract method country()
            */
           System.out.println("\nTesting country() abstract method for all 3 " +
-                    "Spice objects");
-          System.out.println("Null Spice country:\n" + spice0.country());
-          System.out.println("Spice #1 country:\n" + spice1.country());
-          System.out.println("Spice #2 country:\n" + spice2.country());
+                    "Spice objects\n");
+          System.out.println("Null Spice\n" + spice0.country());
+          System.out.println("Spice #1\n" + spice1.country());
+          System.out.println("Spice #2\n" + spice2.country());
 
           /**
            * Testing abstract method howUsed()
            */
           System.out.println("Testing howUsed() abstract method for all 3 " +
-                    "Spice objects");
-          System.out.println("Null Spice how its used:\n" + spice0.howUsed());
-          System.out.println("Spice #1 how its used:\n" + spice1.howUsed());
-          System.out.println("Spice #2 how its used:\n" + spice2.howUsed());
+                    "Spice objects\n");
+          System.out.println("Null Spice\n" + spice0.howUsed());
+          System.out.println("Spice #1\n" + spice1.howUsed());
+          System.out.println("Spice #2\n" + spice2.howUsed());
 
           /**
            * Testing equals() method
@@ -142,8 +142,8 @@ public class PlantDriver {
           // complete vs duplicate
           spice1 = spice1_dup; // reverting spice1 to original content
 
-          System.out.println("Testing a Spice object against a duplicate Spice " +
-                    "object with same attributes:");
+          System.out.println("Testing a complete Spice object against a " +
+                    "duplicate Spice object with same attributes:");
           System.out.println("Is spice1 equals to spice1_dup? " +
                     spice1.equals(spice1_dup) + " (because they have the same " +
                     "content)\n");
@@ -172,11 +172,11 @@ public class PlantDriver {
 
           // Print Header
           System.out.println("\n************************************************" +
-                    "*****************************************************");
+                    "*****************");
           System.out.println("Testing creation of Vegetable objects and their " +
                     "abstract methods:");
           System.out.println("**************************************************" +
-                    "*******************************************************");
+                    "***************");
 
           System.out.println("Null Vegetable object:\n" + veg0.toString());
           System.out.println("1st Vegetable object:\n" + veg1.toString());
@@ -188,7 +188,7 @@ public class PlantDriver {
            * Testing abstract method country()
            */
           System.out.println("Testing country() abstract method for all 3 " +
-                    "Vegetable objects");
+                    "Vegetable objects\n");
           System.out.println("Null Vegetable country:\n" + veg0.country());
           System.out.println("Vegetable #1 country:\n" + veg1.country());
           System.out.println("Vegetable #2 country:\n" + veg2.country());
@@ -197,7 +197,7 @@ public class PlantDriver {
            * Testing abstract method howUsed()
            */
           System.out.println("Testing howUsed() abstract method for all 3 " +
-                    "Vegetable objects");
+                    "Vegetable objects\n");
           System.out.println("Null Vegetable how its used:\n" + veg0.howUsed());
           System.out.println("Vegetable #1 how its used:\n" + veg1.howUsed());
           System.out.println("Vegetable #2 how its used:\n" + veg2.howUsed());
@@ -219,30 +219,30 @@ public class PlantDriver {
                     "Treat heart failure", "Liquid");
 
           // Print header
-          System.out.println("\n************************************************" +
-                    "*****************************************************");
+          System.out.println("\n*****************************************" +
+                    "*************************************");
           System.out.println("Testing creation of Medicinal objects and their " +
                     "equals() and abstract methods:");
           System.out.println("**************************************************" +
-                    "*******************************************************");
+                    "****************************");
 
           /**
            * Testing abstract method country()
            */
           System.out.println("Testing country() abstract method for all 3 " +
-                    "Medicinal objects");
-          System.out.println("Null Medicinal country:\n" + med0.country());
-          System.out.println("Medicinal #1 country:\n" + med1.country());
-          System.out.println("Medicinal #2 country:\n" + med2.country());
+                    "Medicinal objects\n");
+          System.out.println("Null Medicinal\n" + med0.country());
+          System.out.println("Medicinal #1\n" + med1.country());
+          System.out.println("Medicinal #2\n" + med2.country());
 
           /**
            * Testing abstract method howUsed()
            */
           System.out.println("Testing howUsed() abstract method for all 3 " +
-                    "Medicinal objects");
-          System.out.println("Null Medicinal how its used:\n" + med0.howUsed());
-          System.out.println("Medicinal #1 how its used:\n" + med1.howUsed());
-          System.out.println("Medicinal #2 how its used:\n" + med2.howUsed());
+                    "Medicinal objects\n");
+          System.out.println("Null Medicinal\n" + med0.howUsed());
+          System.out.println("Medicinal #1\n" + med1.howUsed());
+          System.out.println("Medicinal #2\n" + med2.howUsed());
 
           /**
            * Testing equals() method
